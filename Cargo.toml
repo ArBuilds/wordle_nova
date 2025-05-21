@@ -1,0 +1,12 @@
+[package]
+name = "wordlebetasrc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+druid = "0.8.3"
+rand = "0.8.5"
+
+[[bin]]
+name = "wordlebetasrc"
+path = "main.rs"
